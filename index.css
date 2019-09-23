@@ -1,2 +1,79 @@
 /* WunderList 2.0 CSS */
 
+/* use #f3f3f3 (White Smoke) for background color */
+/* use #DB4C3F (WunderList Red) for logo and primary color red */
+/* see how #B22222 (Firebrick Red) might look*/
+
+/* html {
+ font-family: "Open Sans";
+} */
+
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav-div {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.WList-Logo {
+    width: 40%;
+    height: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.intro-desc {
+    width: 50%;
+}
+
+.intro-img-div {
+    width: 50%;
+}
+
+.intro-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Content-Section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5% 0 0 0;
+}
+
+.Text-block1 {
+    width: 50%;
+}
+
+.Text-block1 p {
+}
+
+.Feature-img-div1{
+    width: 50%;
+}
+
+.Feature-img1, .Feature-img2 {
+    width: 25%;
+    height: 25%; 
+}

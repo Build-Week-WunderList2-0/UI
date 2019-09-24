@@ -98,32 +98,130 @@ html {
 .Content-Section-Inverse p {
   font-size: 1.6rem;
 }
+.about-nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .about-nav-div {
+    padding: 0 20% 0 20%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.about-nav-div .WList-Logo {
+  width: 15%;
+  height: 15%;
+}
+@media (max-width: 500px) {
+  .about-nav-div .WList-Logo {
+    width: 40%;
+    height: 40%;
+  }
+}
+.about-nav-div nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  width: 15%;
+}
+@media (max-width: 500px) {
+  .about-nav-div nav {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+}
+.about-nav-div nav a {
+  display: flex;
+  justify-content: space-between;
+  color: #db4c3f;
+  text-decoration: none;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .about-nav-div nav a {
+    width: 100%;
+    padding: 0 0 0 20%;
+  }
+}
 h1 {
   font-size: 62.5%;
   font-size: 3rem;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    padding: 0 0 0 40%;
+  }
 }
 .parent {
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 500px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 20%;
+  }
+}
 .content-parent {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin: 0 2% 0 2%;
+}
+@media (max-width: 500px) {
+  .content-parent {
+    justify-content: center;
+    width: 100%;
+  }
 }
 .content-parent .About-img-div {
   width: 25%;
   height: 50%;
 }
+@media (max-width: 500px) {
+  .content-parent .About-img-div {
+    width: 100%;
+    height: 50%;
+  }
+}
 .content-parent .About-img-div .About-img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .content-parent .About-img-div {
+    width: 50%;
+    height: 50%;
+    padding: 0 0 0 20%;
+  }
 }
 .content-parent h2 {
   font-size: 62.5%;
   font-size: 2.2rem;
 }
+@media (max-width: 500px) {
+  .content-parent h2 {
+    font-size: 1.5rem;
+    padding: 0 0 0 10%;
+  }
+}
 .content-parent p {
   font-size: 62.5%;
   font-size: 1.8rem;
+}
+@media (max-width: 500Px) {
+  .content-parent p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .content-child {
+    width: 100%;
+  }
 }

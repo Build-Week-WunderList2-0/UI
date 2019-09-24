@@ -3,28 +3,48 @@
 .intro-container {
     display: flex;
     flex-direction: row;
+    @media (max-width: 500px){
+        display: flex;
+        flex-direction: column;
+    }
 
     .intro-desc {
         width: 50%;
+        @media (max-width: 500px){
+            width: 100%;
+            margin-bottom: 5%;
+        }
     }
 
     .intro-img-div {
         width: 50%;
+        @media (max-width: 500px){
+            display: none;
+        }
 
         .intro-img {
             width: 100%;
             height: 80%;
+            @media (max-width: 500px){
+                display: none;
+            }
         }
     }
 
     h2 {
         font-size: 2.5rem;
         color: @wundercolor;
+        @media (max-width: 500px){
+            width: 100%;
+        }
     }
 
     p {
         font-size: 1.8rem;
         margin-right: 15%;
+        @media (max-width: 500px){
+            width: 100%;
+        }
     }
 
     .Btn1 {
@@ -35,22 +55,39 @@
         background-color: whitesmoke;
         border-radius: 10px;
         font-weight: bold;
+        @media (max-width: 500px){
+            width: 20%;
+        }
     }
 }
 
 .Content-Section {
     display: flex;
     flex-direction: row;
+    @media (max-width: 500px){
+        display: flex;
+        flex-direction: column;
+    }
+
     .Text-block {
         width: 50%;
+        @media (max-width: 500px){
+            width: 100%;
+        }
     }
 
     .Feature-img-div {
         width: 50%;
+        @media (max-width: 500px){
+            display: none;
+        }
 
         .Feature-img {
             width: 80%;
             height: 80%;
+            @media (max-width: 500px){
+                display: none;
+            }
         }
     }
 
@@ -68,17 +105,30 @@
 .Content-Section-Inverse {
     display: flex;
     flex-direction: row-reverse;
+    @media (max-width: 500px){
+        display: flex;
+        flex-direction: column;
+    }
 
     .Text-block {
         width: 50%;
+        @media (max-width: 500px){
+            width: 100%;
+        }
     }
 
     .Feature-img-div {
         width: 50%;
+        @media (max-width: 500px){
+            display: none;
+        }
 
         .Feature-img {
             width: 80%;
             height: 80%;
+            @media (max-width: 500px){
+                display: none;
+            }
         }
     }
 

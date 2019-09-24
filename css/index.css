@@ -98,3 +98,19 @@ html {
 .Content-Section-Inverse p {
   font-size: 1.6rem;
 }
+h1 {
+  font-size: 62.5%;
+  font-size: 3rem;
+}
+.content-parent {
+  display: flex;
+  flex-direction: row;
+}
+.content-parent .About-img-div {
+  width: 25%;
+  height: 50%;
+}
+.content-parent .About-img-div .About-img {
+  width: 95%;
+  height: 50%;
+}

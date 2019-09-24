@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f3f3f3;
+  margin: 1%;
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 2%;
+}
+.nav-div .WList-Logo {
+  width: 15%;
+  height: 15%;
+}
+.nav-div nav {
+  display: flex;
+  font-size: 1.7rem;
+  width: 15%;
+}
+.nav-div nav a {
+  color: #db4c3f;
+  text-decoration: none;
+  width: 60%;
+}
+.intro-container {
+  display: flex;
+  flex-direction: row;
+}
+.intro-container .intro-desc {
+  width: 50%;
+}
+.intro-container .intro-img-div {
+  width: 50%;
+}
+.intro-container .intro-img-div .intro-img {
+  width: 100%;
+  height: 80%;
+}
+.intro-container h2 {
+  font-size: 2.5rem;
+  color: #db4c3f;
+}
+.intro-container p {
+  font-size: 1.8rem;
+  margin-right: 15%;
+}
+.intro-container .Btn1 {
+  width: 20%;
+  margin: 5% 50% 0 30%;
+  padding: 2%;
+  border: 2px solid #db4c3f;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.Content-Section {
+  display: flex;
+  flex-direction: row;
+}
+.Content-Section .Text-block {
+  width: 50%;
+}
+.Content-Section .Feature-img-div {
+  width: 50%;
+}
+.Content-Section .Feature-img-div .Feature-img {
+  width: 80%;
+  height: 80%;
+}
+.Content-Section h3 {
+  font-size: 2.2rem;
+  color: #db4c3f;
+}
+.Content-Section p {
+  font-size: 1.6rem;
+  margin-right: 15%;
+}
+.Content-Section-Inverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Content-Section-Inverse .Text-block {
+  width: 50%;
+}
+.Content-Section-Inverse .Feature-img-div {
+  width: 50%;
+}
+.Content-Section-Inverse .Feature-img-div .Feature-img {
+  width: 80%;
+  height: 80%;
+}
+.Content-Section-Inverse h3 {
+  font-size: 2.2rem;
+  color: #db4c3f;
+}
+.Content-Section-Inverse p {
+  font-size: 1.6rem;
+}

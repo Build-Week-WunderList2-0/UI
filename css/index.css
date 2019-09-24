@@ -102,17 +102,22 @@ h1 {
   font-size: 62.5%;
   font-size: 3rem;
 }
+.parent {
+  display: flex;
+  flex-direction: row;
+}
 .content-parent {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 .content-parent .About-img-div {
   width: 25%;
   height: 50%;
 }
 .content-parent .About-img-div .About-img {
-  width: 95%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .content-parent h2 {
   font-size: 62.5%;

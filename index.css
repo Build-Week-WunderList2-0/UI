@@ -21,19 +21,15 @@
     padding-bottom: 2%;
 }
 
-.left-nav-div {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-}
 
 h1 {
     color: #db4c3f;
 }
 
 .WList-Logo {
-    width: 40%;
-    height: 50%;
+    width: 20%;
+    height: 30%;
+    padding-left: 2%;
 }
 
 nav {
@@ -124,7 +120,6 @@ h3 {
     .WList-Logo {
         width: 20%;
         height: 20%;
-        justify-content: center;
     }
 
     nav {

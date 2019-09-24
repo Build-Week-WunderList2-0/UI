@@ -4,9 +4,9 @@
 /* use #DB4C3F (WunderList Red) for logo and primary color red */
 /* see how #B22222 (Firebrick Red) might look*/
 
-/* html {
- font-family: "Open Sans";
-} */
+html {
+    background-color: #f3f3f3;
+}
 
 .entire-container {
     margin: 0 1% 0 1%;
@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: flex-end;
     padding-bottom: 2%;
+    margin: 2%;
 }
 
 
@@ -42,12 +43,14 @@ nav a {
     width: 100%;
     font-size: 62.5%;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .intro-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    border-bottom: 1px solid;
 }
 
 .intro-desc {
@@ -60,7 +63,7 @@ nav a {
 
 .intro-img {
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 
